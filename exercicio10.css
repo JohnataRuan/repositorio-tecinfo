@@ -1,0 +1,11 @@
+.container{
+    background-color: aliceblue;
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    display:inline-block;
+
+}

@@ -1,0 +1,228 @@
+body{background-color: rgb(0, 0, 0);
+    text-emphasis-color: white;
+    border-color: rgb(250, 250, 46);
+    z-index: 2;
+}
+h1 {text-align: center;   color: rgba(250, 250, 46, 0.849);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     z-index: 2}
+.tudo {flex-direction: column-reverse;
+        flex-wrap: wrap;
+        z-index: 2;}
+        
+
+.barra {position: absolute;
+        left:26%;
+        width: 700px;
+        padding: 10px;
+         border: 3px solid rgb(37, 37, 37);
+        border-radius: 5px;
+        background-color: rgb(37, 37, 37);
+        color: rgb(0, 0, 0);
+      border-style: double;
+      z-index: 2;
+}
+input[type="submit"] {
+    background-color:rgb(250, 250, 46);
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-style: double;
+    z-index: 2;
+}
+input[type="text"] {
+    width: 580px;
+    padding: 10px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+form {
+    margin: 3px;
+    text-align:right;
+    z-index: 2;
+}
+.cabeça {text-align: center; border-color: white;
+}
+h3{color: whitesmoke;}
+p{color: aliceblue;
+    text-align:center;
+    line-height: 1.1;
+    text-justify:unset;
+    margin: 1px;
+    z-index: 2
+}
+
+.carro {text-align:center; 
+    position: absolute;
+    top: 101%;
+    left: -1%;
+    margin: 1px;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2
+}
+
+.carro:hover{
+    background-color: rgba(255, 0, 0, 0.5); z-index: 2
+  }
+
+
+.Bugatti { text-align:center; 
+    position: absolute;
+    top: 101%;
+    left: 40%;
+    margin: 1px;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2}
+    .Bugatti:hover{
+      background-color: rgba(255, 0, 0, 0.5);
+      z-index: 2
+    }
+
+.Pagani { text-align: center;
+    position: absolute;
+    top: 101%;
+    left: 80%;
+    margin: 1px; 
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2}
+
+    .Pagani:hover{
+        background-color: rgba(255, 0, 0, 0.5);
+        z-index: 2
+      }
+
+.logo {text-align: center;
+    position:absolute;
+    top:  280%;
+    left: 44%;
+    margin: 0px 0 0px ;
+    z-index: 2
+
+}
+.banner {
+    
+    background-image: url('logoooooo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    left: 10%;
+    width: 90%; 
+    height: 900px; 
+    top:0%;
+    position: fixed;
+    z-index: 0;
+
+}
+.fundos {text-align: center;
+    position:absolute;
+top: 200%;
+margin: 0px;
+background-color: darkgrey;
+z-index: 2
+}
+.super {
+    position:absolute;
+    left: 10px ;
+    top: 0%;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2
+}
+
+.super:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: 2
+  }
+.classicos {
+    position:absolute;
+    left: 490px ;
+    top: 0%;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2
+}
+
+.classicos:hover{
+    background-color: rgba(255, 0, 0, 0.5);z-index: 2
+  }
+
+.motos {
+    position:absolute;
+    left: 940px ;
+    top: 0%;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2
+}
+.motos:hover{
+    background-color: rgba(255, 0, 0, 0.5);z-index: 2
+  }
+
+.economicos {
+    position:absolute;
+    left: 1390px ;
+    top: 0%;
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    display: inline-block;
+    border-style:double;
+    z-index: 2
+}
+.economicos:hover{
+    background-color: rgba(255, 0, 0, 0.5);z-index: 2
+  }
+footer {
+    position: absolute;
+    text-align: center;
+    background: local;
+    color: #fff;
+    padding: 20px 0 25px;
+    top: 320%;
+    left: 40%;
+    z-index: 2
+    ;
+}
+.imagemcarro {width: 100%;
+    height: auto;
+    display: block;
+    z-index: 2
+  }
+.comprar {
+    position: absolute;
+    top: 40%; /* Posiciona o texto verticalmente no centro */
+    left: 50%; /* Posiciona o texto horizontalmente no centro */
+    transform: translate(-50%, -50%); /* Move o texto de volta metade da sua largura e altura para centralizá-lo corretamente */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo da sobreposição com transparência */
+    color:rgb(250, 250, 46);
+    z-index: 1; /* Garante que o texto esteja na frente da imagem */
+    opacity: 0; /* Inicialmente, o texto é invisível */
+    transition: opacity 0.3s;
+    padding: 115px 95px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    z-index: 2
+}
+
+.imagemcarro:hover .comprar
+{opacity: 1;z-index: 2}
